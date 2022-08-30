@@ -23,6 +23,10 @@ nav ul {
   display: flex;
   margin: 0;
 }
+nav li {
+  list-style-type: none;
+  width: 100%;
+}
 nav ul a {
   text-decoration: none;
   color: inherit;
