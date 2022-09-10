@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/f132f25ed3.js"
       crossorigin="anonymous"
@@ -17,6 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" type="text/css" />
     <title>Booki - Site de réservation de voyages</title>
   </head>
   <body>
@@ -65,7 +66,7 @@
       </header>
       <section id="hebergements" class="container-hebergement">
         <div class="container-marseille">
-          <h2>Hébergements à Marseilles</h2>
+          <h2>Hébergements à Marseille</h2>
           <!-- Card 1 -->
           <article class="marseille-card">
             <a href="#">
@@ -214,7 +215,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star grey-star"></i>
                 </div>
               </div>
             </a>
@@ -225,16 +226,17 @@
               <img
                 src="./images/hebergements/4_small//febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                 alt="Photo de l'hébergement"
+                class="tall-img"
               />
               <div class="popular-desc">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de <strong>128€</strong></p>
+                <h3>Hôtel Tout bleu et Blanc</h3>
+                <p>Nuit à partir de <strong>68€</strong></p>
                 <div class="stars">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star grey-star"></i>
                 </div>
               </div>
             </a>
@@ -266,17 +268,6 @@
             <h3>Fort de Pomègues</h3>
           </div>
         </a>
-        <a href="#" class="small">
-          <div class="card-img">
-            <img
-              src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-              alt="Photo de l'activité"
-            />
-          </div>
-          <div class="card-title">
-            <h3>Îles du Frioul</h3>
-          </div>
-        </a>
         <a href="#" class="tall tall-two">
           <div class="card-img">
             <img
@@ -297,6 +288,17 @@
           </div>
           <div class="card-title">
             <h3>Notre-Dame-de-la-Garde</h3>
+          </div>
+        </a>
+        <a href="#" class="small">
+          <div class="card-img">
+            <img
+              src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+              alt="Photo de l'activité"
+            />
+          </div>
+          <div class="card-title">
+            <h3>Îles du Frioul</h3>
           </div>
         </a>
         <a href="#" class="medium medium-two">
